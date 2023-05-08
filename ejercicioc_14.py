@@ -3,5 +3,10 @@ vegetariana = ['Pimiento', 'Tofu']
 Tradicional = ['Peperoni', 'Jamon', 'Salmon']
 Base = ['Tomate', 'mozarella']
 
-elige = str(input('Elige tu pizza Vegetariana o Tradicional '))
+tipo = str(input('que pizza quieres Vegetariana o Tradicional: '))
+
+if tipo == 'Vegetariana':
+    print(input('elige tus ingredientes', vegetariana))
+ 
+
 

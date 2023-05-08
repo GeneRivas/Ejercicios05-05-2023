@@ -7,3 +7,6 @@ if denominador == 0:
 else:
     resultado = numerador % denominador
     print(f'El resultado es {resultado}')
+
+
+# Revisar
